@@ -20,7 +20,7 @@
     />
   </head>
   <body>
-    <header class="max-w-[1140px] mx-auto mt-8">
+    <header class="sm:max-w-[640px] lg:max-w-[1140px] mx-auto mt-8">
       <!-- nav-bar-section -->
       <section class="flex justify-between items-center">
         <img src="./assets/logo.png" alt="" />
@@ -41,13 +41,15 @@
       <section class="max-w-[1140px] mx-auto">
         <div class="flex flex-col-reverse lg:flex-row items-center mt-[120px]">
           <div class="max-w-[570px]">
-            <h2 class="font-bold text-[50px] leading-16">
+            <h2
+              class="sm:text-[30px] sm:leading-8 font-bold lg:text-[50px] lg:leading-16"
+            >
               ALWAYS <span class="text-[#E95A08]">FRESH</span> <br /><span
                 class="text-[#E95A08]"
                 >FLOWERS</span
               >
             </h2>
-            <p class="font-[600] text-[18px] text-zinc-500">
+            <p class="sm:text-[12px] font-[600] lg:text-[18px] text-zinc-500">
               Indulge your senses with the beauty and fragrance of our fresh
               flower shop. From classic roses to exotic blooms, we offer a wide
               variety of fresh flowers that are perfect for any occasion.
@@ -62,10 +64,10 @@
     <main>
       <section class="max-w-[1140px] mx-auto">
         <div class="text-center mt-[100px]">
-          <h2 class="font-bold text-[45px]">
+          <h2 class="font-bold lg:text-[45px] sm:text-[30px]">
             <span class="text-[#E95A08]">Our </span>Plants
           </h2>
-          <p class="font-[600] text-[22px] text-zinc-500">
+          <p class="sm:text-[12px] font-[600] lg:text-[22px] text-zinc-500">
             Indulge your senses with the beauty and fragrance of our fresh
             flower shop. From <br />
             classic roses to exotic blooms, we offer a wide variety of fresh.
@@ -74,7 +76,7 @@
       </section>
       <!-- card -section -->
       <section
-        class="grid grid-cols-2 gap-5 mt-10 items-center justify-center w-full lg:grid-cols-4 max-w-[1140px] mx-auto"
+        class="grid grid-cols-2 gap-5 mt-10 items-center justify-center w-full lg:grid-cols-4 lg:max-w-[1140px] sm:max-w-[640px] mx-auto"
       >
         <div class="max-w-[270px]">
           <div class="border text-center">
@@ -165,12 +167,12 @@
           <img class="" src="./assets/flower-store.png" alt="" />
         </div>
         <div class="max-w-[540px]">
-          <h2
-            class="font-bold text-[20px]text-[#000000] lg:font-bold text-[50px] text-[#000000]"
-          >
+          <h2 class="sm:text-[38px] font-bold lg:text-[50px] text-[#000000]">
             Flower & Plants Lover
           </h2>
-          <ul class="list-disc font-[400] text-zinc-500 text-[22px] mt-8">
+          <ul
+            class="sm:ml-6 list-disc font-[400] text-zinc-500 lg:text-[22px] sm:text-[12px] mt-8"
+          >
             <li>
               Indulge your senses with the beauty and fragrance of our fresh
               flower shop. From classic roses to exotic blooms, we offer a wide
@@ -191,10 +193,10 @@
       </div>
       <!-- Latest - Deals -->
       <div class="text-center mt-[100px] space-y-4">
-        <h3 class="font-bold text-[50px]">
+        <h3 class="font-bold lg:text-[50px]">
           <span class="text-[#E95A08]">Latest</span> Deals
         </h3>
-        <p class="font-normal text-[22px] text-zinc-500">
+        <p class="font-normal lg:text-[22px] text-zinc-500">
           Indulge your senses with the beauty and fragrance of our fresh flower
           shop. From <br />
           classic roses to exotic blooms, we offer a wide variety of fresh.
@@ -205,8 +207,10 @@
       <!--  colorful Bunch section -->
       <section>
         <div>
-          <div class="max-w-full bg-[url(./assets/bg.png)] text-center">
-            <h3 class="text-[50px] font-bold mt-20 pt-36 text-white">
+          <div
+            class="sm:max-w-full lg:max-w-full bg-[url(./assets/bg.png)] text-center"
+          >
+            <h3 class="lg:text-[50px] font-bold mt-20 pt-36 text-white">
               Join the colorful Bunch
             </h3>
             <div class="pb-40 gap-0">
@@ -223,9 +227,11 @@
         </div>
       </section>
       <!-- footer-section -->
-      <section class="max-w-[1140px] mx-auto mt-28">
-        <div class="flex flex-col lg:flex-row justify-between items-center">
-          <div>
+      <section class="max-w-[1140px] mx-auto mt-28 mb-12 sm:ml-8">
+        <div
+          class="sm:flex flex-col sm:justify-start lg:flex-row lg:justify-between lg:items-center"
+        >
+          <div class="sm:space-y-6">
             <img src="./assets/logo.png" alt="" />
             <p>
               Indulge your senses with the <br />
@@ -233,21 +239,21 @@
               flower shop.
             </p>
           </div>
-          <div class="space-y-4">
+          <div class="sm:space-y-6 sm:mt-3 lg:space-y-4">
             <p><a href="">Home</a></p>
             <p><a href="">About Us</a></p>
             <p><a href="">Blog</a></p>
             <p><a href="">FAQ</a></p>
             <p><a href="">Contact Us</a></p>
           </div>
-          <div class="space-y-4">
+          <div class="sm:space-y-6 sm:mt-3 lg:space-y-4">
             <p><a href="">Features</a></p>
             <p><a href="">Pricing</a></p>
             <p><a href="">Privacy Policy</a></p>
             <p><a href="">Terms of Service</a></p>
             <p><a href="">Help Center</a></p>
           </div>
-          <div class="flex max-w-[px] space-x-3">
+          <div class="sm:mt-6 sm:space-x-10 flex space-x-3">
             <img src="./assets/icon-facebook.png" alt="" />
             <img src="./assets/icon-linkedin.png" alt="" />
             <img src="./assets/icon-twitter.png" alt="" />
